@@ -1,0 +1,25 @@
+{
+  "home": {
+    "hero": {
+      "title": "Compara Servicios de Streaming y Ahorra Dinero",
+      "subtitle": "Encuentra los mejores servicios de streaming y hardware para tus necesidades de entretenimiento",
+      "ctaPrimary": "Comparar Servicios",
+      "ctaSecondary": "Explorar Hardware"
+    }
+  },
+  "AffiliateDisclosure": {
+    "title": "Divulgación de Afiliados",
+    "metaDescription": "Conozca nuestras asociaciones de afiliados y cómo mantenemos la independencia editorial mientras ganamos comisiones.",
+    "subtitle": "Transparencia en nuestras asociaciones y relaciones de afiliados",
+    "introduction": "Este sitio web participa en programas de marketing de afiliados, incluidos Amazon Associates, Disney Affiliate Program y otras redes de afiliados de servicios de streaming.",
+    "commissionTitle": "Cómo Funcionan las Comisiones de Afiliados",
+    "commissionDescription": "Esto significa que si haces clic en ciertos enlaces de nuestro sitio y realizas una compra o suscripción, podemos recibir una pequeña comisión sin costo adicional para ti. Estas comisiones nos ayudan a mantener y mejorar el sitio web, crear más contenido y mantenerlo gratuito para todos.",
+    "editorialTitle": "Independencia Editorial",
+    "editorialDescription": "Solo recomendamos servicios y productos que realmente consideramos valiosos para nuestros lectores. Nuestras reseñas, comparaciones y recomendaciones se basan en nuestra propia investigación, experiencias y retroalimentación de usuarios — no en incentivos financieros.",
+    "transparencyTitle": "Nuestro Compromiso con la Transparencia",
+    "transparencyDescription": "Somos completamente transparentes: las relaciones de afiliados no influyen en nuestro contenido editorial ni en nuestras valoraciones. La presencia de enlaces de afiliados no afecta nuestra honestidad ni objetividad.",
+    "contactTitle": "¿Preguntas?",
+    "contactDescription": "Si tienes alguna pregunta sobre nuestras prácticas de afiliados, no dudes en contactarnos.",
+    "lastUpdated": "Última actualización: 19 de marzo de 2026"
+  }
+}
