@@ -1,0 +1,25 @@
+{
+  "home": {
+    "hero": {
+      "title": "Compare Streaming TV Services & Save Money",
+      "subtitle": "Find the best streaming services and hardware for your entertainment needs",
+      "ctaPrimary": "Compare Services",
+      "ctaSecondary": "Explore Hardware"
+    }
+  },
+  "AffiliateDisclosure": {
+    "title": "Affiliate Disclosure",
+    "metaDescription": "Learn about our affiliate partnerships and how we maintain editorial independence while earning commissions.",
+    "subtitle": "Transparency in our partnerships and affiliate relationships",
+    "introduction": "This website participates in affiliate marketing programs, including but not limited to Amazon Associates, Disney Affiliate Program, and other streaming service affiliate networks.",
+    "commissionTitle": "How Affiliate Commissions Work",
+    "commissionDescription": "This means that if you click on certain links on our site and make a purchase, we may receive a small commission at no extra cost to you. These commissions help us maintain and improve the website, create more content, and keep it free for everyone to use.",
+    "editorialTitle": "Editorial Independence",
+    "editorialDescription": "We only recommend services and products that we genuinely believe are valuable to our readers. Our reviews, comparisons, and recommendations are based on our own research, user feedback, and experience — not on financial incentives.",
+    "transparencyTitle": "Our Commitment to Transparency",
+    "transparencyDescription": "We are completely transparent: affiliate relationships do not influence our editorial content or ratings. The presence of affiliate links does not affect our honesty or objectivity.",
+    "contactTitle": "Questions?",
+    "contactDescription": "If you have any questions about our affiliate practices, feel free to contact us.",
+    "lastUpdated": "Last updated: March 19, 2026"
+  }
+}
