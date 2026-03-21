@@ -1,11 +1,11 @@
 // next.config.mjs
 import createNextIntlPlugin from 'next-intl/plugin';
 
-const withNextIntl = createNextIntlPlugin('./i18n.ts');  // pas pad aan als nodig, bijv. './src/i18n.ts'
+const withNextIntl = createNextIntlPlugin('./i18n.ts');  // pas pad aan als i18n.ts in src staat
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'standalone',  // als je dit nodig hebt; verwijder anders
+  output: 'standalone',  // alleen als je standalone nodig hebt (verwijder anders)
   // andere config...
 };
 
