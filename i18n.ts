@@ -1,6 +1,18 @@
-// i18n.ts
-import {getRequestConfig} from 'next-intl/server';
+import { getRequestConfig } from 'next-intl/server';
+import { notFound } from 'next/navigation';
 
-export default getRequestConfig(async ({locale}) => ({
-  messages: (await import(`./messages/${locale}.json`)).default
-}));
+export const locales = ['en', 'nl', 'es'] as const;
+export const defaultLocale = 'en' as const;
+export type Locale = (typeof locales)[number];
+
+export default getRequestConfig(async ({ locale }) => {
+  if (!locales.includes(locale as Locale)) {
+    notFound();
+  }
+
+  return {
+    messages: (await import(`../messages/${locale}.json`)).default,
+    timeZone: 'UTC',
+    now: new Date(),
+  };
+});
