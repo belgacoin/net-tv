@@ -4,12 +4,13 @@ const withNextIntl = createNextIntlPlugin();
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'export',
-  distDir: 'dist',
-  images: {
-    unoptimized: true,
+  experimental: {
+    outputStandalone: true,
   },
-  trailingSlash: true,
+  output: "export", // ensures compatibility with dynamic routes in Vercel
+  generateBuildId: async () => {
+    return 'custom-build-id' // Example: ensure unique builds
+  }
 };
 
 export default withNextIntl(nextConfig);
