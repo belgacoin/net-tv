@@ -10,10 +10,10 @@
     "postinstall": "npm audit fix --force || true"
   },
 "dependencies": {
-  "next": "14.2.35",  // patched security versie (verwijderd de warn)
+  "next": "14.2.35",  
   "react": "18.3.1",
   "react-dom": "18.3.1",
-  "next-intl": "^4.8.3"  // upgrade hier – betere support
+  "next-intl": "^4.8.3"  
 },
 "devDependencies": {
   "@types/node": "20.14.0",
