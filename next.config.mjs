@@ -7,10 +7,8 @@ const nextConfig = {
   experimental: {
     outputStandalone: true,
   },
-  output: "export", // ensures compatibility with dynamic routes in Vercel
-  generateBuildId: async () => {
-    return 'custom-build-id' // Example: ensure unique builds
-  }
+  export default {
+  output: 'standalone',  // dit vervangt experimental.outputStandalone
+  // andere opties hier...
 };
-
 export default withNextIntl(nextConfig);
